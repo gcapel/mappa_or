@@ -1,13 +1,17 @@
 .card {
-    margin: 0;
-    width: 50px;
+    margin: 10;
+    width: 50%;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    margin-left: -50%;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
+    font-style: oblique;
+    text-align: center;
+    margin-left: 10px;
     padding: 30px;
-    box-shadow: 0 0 5px #333;
+    box-shadow: 0 0 15px #333;
     border-radius: 10px;
-    background: #48cbff;
+    background: #edc706;
     transform: translate(-50%, -50%);
 }

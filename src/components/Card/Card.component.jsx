@@ -1,6 +1,6 @@
 import React from "react";
-import "./Card/card.styles.css";
+import "./Card.styles.scss";
 
-const Card = () => <div className="card">Prova</div>;
+const Card = () => <div className="card">TITOLO PRINCIPALE DELLA CARD</div>;
 
 export default Card;
