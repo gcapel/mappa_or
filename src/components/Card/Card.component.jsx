@@ -3,7 +3,7 @@ import "./Card.styles.scss";
 
 const Card = (props) => {
     return(
-    <div className="card">prova</div>
+    <div className="card">{props.testo}</div>
         );
 }
 
