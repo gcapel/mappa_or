@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.styles.scss";
 
-const Card = () => <div className="card">TITOLO PRINCIPALE DELLA CARD</div>;
+const Card = (props) => <div className='card' >{props.testo}</div>;
 
 export default Card;
